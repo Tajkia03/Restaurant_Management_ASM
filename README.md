@@ -14,21 +14,29 @@ Dynamic menu management (update item names)
 
 Staff Module:
 Multi-item order processing
+
 Quantity-based billing system
+
 Input validation for item selection and quantity
 
 Billing System:
 Automatic total calculation
+
 Coupon-based 10% discount system (SAVE10)
+
 Final bill generation with formatted output
 
 Additional Features:
 Weekend special message display
+
 Error handling for invalid inputs
+
 Modular procedures for better code organization
 
 Technologies Used:
 8086 Assembly Language
+
 DOS Interrupts (INT 21h)
+
 TASM / MASM
 DOSBox (for execution)
