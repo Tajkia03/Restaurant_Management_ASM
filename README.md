@@ -1,26 +1,32 @@
-Image Processing Project
+Restaurant Management System (8086 Assembly)
+📌 Overview
 
-This project was developed as part of the CSE 428 (Digital Image Processing) course.
+This project is a menu-driven Restaurant Management System developed using 8086 Assembly Language and DOS interrupts. It simulates basic restaurant operations including admin control, order processing, and billing in a low-level programming environment.
 
-Features
-- Image filtering (smoothing, sharpening)
-- Image transformation
-- Edge detection
-- Basic image analysis
+🚀 Features
 
-Technologies Used
-- Python
-- NumPy
-- OpenCV / PIL
-- Matplotlib
+Admin Module: 
+Secure login system with password authentication
+Set, edit, and view menu items
+Dynamic menu management (update item names)
 
-How to Run
-1. Install required libraries:
-   pip install numpy opencv-python matplotlib
-2. Open the notebook:
-   jupyter notebook
-3. Run all cells
+Staff Module:
+Multi-item order processing
+Quantity-based billing system
+Input validation for item selection and quantity
 
-Purpose
-This project demonstrates fundamental image processing techniques and their practical implementation.
+Billing System:
+Automatic total calculation
+Coupon-based 10% discount system (SAVE10)
+Final bill generation with formatted output
 
+Additional Features:
+Weekend special message display
+Error handling for invalid inputs
+Modular procedures for better code organization
+
+Technologies Used:
+8086 Assembly Language
+DOS Interrupts (INT 21h)
+TASM / MASM
+DOSBox (for execution)
