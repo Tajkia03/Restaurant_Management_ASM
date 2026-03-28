@@ -7,7 +7,9 @@ This project is a menu-driven Restaurant Management System developed using 8086 
 
 Admin Module: 
 Secure login system with password authentication
+
 Set, edit, and view menu items
+
 Dynamic menu management (update item names)
 
 Staff Module:
